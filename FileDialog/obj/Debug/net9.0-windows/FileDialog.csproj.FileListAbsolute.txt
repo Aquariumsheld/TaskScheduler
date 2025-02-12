@@ -1,0 +1,50 @@
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.exe
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.deps.json
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.runtimeconfig.json
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.Form1.resources
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.GenerateResource.cache
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfoInputs.cache
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfo.cs
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.CoreCompileInputs.cache
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\refint\FileDialog.dll
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.genruntimeconfig.cache
+C:\Users\ben.sowieja\OneDrive - 4SELLERS GmbH\AA) Programming Projekts\Console\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\ref\FileDialog.dll
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.exe
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.deps.json
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.runtimeconfig.json
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.dll
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.GenerateResource.cache
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfoInputs.cache
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfo.cs
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.CoreCompileInputs.cache
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.dll
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\refint\FileDialog.dll
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.genruntimeconfig.cache
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\ref\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.exe
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.deps.json
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.runtimeconfig.json
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.Form1.resources
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.TaskCreator.resources
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.GenerateResource.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfoInputs.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.AssemblyInfo.cs
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.csproj.CoreCompileInputs.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\refint\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.genruntimeconfig.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\ref\FileDialog.dll
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\FileDialog.TaskCreator.resources
+C:\Users\lorenz.kupfer\source\repos\TaskSchedulerApp\FileDialog\obj\Debug\net9.0-windows\ShutdownBlocker.PreventShutdown.resources

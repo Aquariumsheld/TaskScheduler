@@ -1,0 +1,17 @@
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Release\net9.0-windows\FileDialog.exe
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Release\net9.0-windows\FileDialog.deps.json
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Release\net9.0-windows\FileDialog.runtimeconfig.json
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Release\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\bin\Release\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.Form1.resources
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.TaskCreator.resources
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.csproj.GenerateResource.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.AssemblyInfoInputs.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.AssemblyInfo.cs
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.csproj.CoreCompileInputs.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\refint\FileDialog.dll
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.pdb
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\FileDialog.genruntimeconfig.cache
+C:\Users\ben.sowieja\Desktop\TaskSchedulerApp\FileDialog\obj\Release\net9.0-windows\ref\FileDialog.dll

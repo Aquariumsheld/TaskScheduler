@@ -1,0 +1,51 @@
+Timestamp,TaskName,Message
+10.02.2025 15:02:39,Simple Task,Task successfully executed.
+10.02.2025 15:08:00,Simple Task,Task successfully executed.
+10.02.2025 15:08:00,Recurring Task,Task successfully executed.
+10.02.2025 15:08:10,Recurring Task,Task successfully executed.
+10.02.2025 15:15:37,Simple Task,Task successfully executed.
+10.02.2025 15:15:37,Recurring Task,Task successfully executed.
+10.02.2025 15:15:47,Recurring Task,Task successfully executed.
+10.02.2025 15:15:57,Recurring Task,Task successfully executed.
+10.02.2025 15:16:07,Recurring Task,Task successfully executed.
+10.02.2025 15:16:17,Recurring Task,Task successfully executed.
+10.02.2025 15:31:50,Simple Task,Task successfully executed.
+10.02.2025 15:31:50,Recurring Task,Task successfully executed.
+10.02.2025 15:32:00,Recurring Task,Task successfully executed.
+10.02.2025 15:32:10,Recurring Task,Task successfully executed.
+10.02.2025 15:32:25,Example,Task successfully executed.
+10.02.2025 15:32:30,Simple Task,Task successfully executed.
+10.02.2025 15:32:30,Recurring Task,Task successfully executed.
+10.02.2025 15:32:40,Example,Task successfully executed.
+10.02.2025 15:32:45,Simple Task,Task successfully executed.
+10.02.2025 15:32:45,Recurring Task,Task successfully executed.
+10.02.2025 15:58:46,OpenMail,Task successfully executed.
+10.02.2025 16:00:32,OpenMail,Task successfully executed.
+10.02.2025 16:00:32,Calculator,Task successfully executed.
+11.02.2025 08:12:42,OpenMail,Task successfully executed.
+11.02.2025 08:12:42,Calculator,Task successfully executed.
+11.02.2025 08:14:31,OpenMail,Task successfully executed.
+11.02.2025 08:14:31,Calculator,Task successfully executed.
+11.02.2025 08:14:56,OpenMail,Task successfully executed.
+11.02.2025 08:14:56,Calculator,Task successfully executed.
+11.02.2025 08:17:52,OpenMail,Task successfully executed.
+11.02.2025 08:18:22,Calculator,Task successfully executed.
+11.02.2025 08:18:44,Browser,Task successfully executed.
+11.02.2025 08:57:43,OpenMail,Task successfully executed.
+11.02.2025 08:57:43,Calculator,Task successfully executed.
+11.02.2025 08:57:43,Browser,Task successfully executed.
+11.02.2025 09:00:24,OpenMail,Task successfully executed.
+11.02.2025 09:00:25,Calculator,Task successfully executed.
+11.02.2025 09:00:25,Browser,Task successfully executed.
+11.02.2025 09:08:57,LockPC,Nutzer inaktiv. PC wird sofort gesperrt.
+11.02.2025 09:10:21,LockPC,Nutzer inaktiv. PC wird sofort gesperrt.
+11.02.2025 09:15:39,OpenMail,Task successfully executed.
+11.02.2025 09:15:39,LockInactive,Task successfully executed.
+11.02.2025 09:15:39,Calculator,Task successfully executed.
+11.02.2025 09:15:39,Browser,Task successfully executed.
+11.02.2025 09:15:51,LockPC,Nutzer inaktiv. PC wird sofort gesperrt.
+11.02.2025 09:22:48,OpenMail,Task successfully executed.
+11.02.2025 09:22:48,LockInactive,Task successfully executed.
+11.02.2025 09:22:48,Calculator,Task successfully executed.
+11.02.2025 09:22:48,Browser,Task successfully executed.
+11.02.2025 09:22:51,LockPC,Nutzer inaktiv. PC wird sofort gesperrt.

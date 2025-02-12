@@ -1,0 +1,37 @@
+﻿
+
+
+
+//BasicTasks.Email(taskScheduler);
+        //BasicTasks.LockInactive(taskScheduler, 10);
+        //BasicTasks.Calculator(taskScheduler);
+        //BasicTasks.Browser(taskScheduler);
+
+        var notificationManager = new NotificationManager();
+        var logger = new Logger("task_logs.csv");
+
+        
+
+        var task = new OwnTask("Example", () =>
+        {
+            string infos = Form1.OpenFile();
+            Process.Start(infos);
+            notificationManager.SendNotification("Example executed.");
+            logger.Log("Example", "Task successfully executed.");
+        }, DateTime.Now, priority: 1);
+
+        var task1 = new OwnTask("dsa", () =>
+        {
+            notificationManager.SendNotification("Simple Task executed.");
+            logger.Log("Simple Task", "Task successfully executed.");
+        }, DateTime.Now.AddSeconds(5), priority: 1);
+
+        var task2 = new OwnTask("Recurring Task", () =>
+        {
+            notificationManager.SendNotification("Recurring Task executed.");
+            logger.Log("Recurring Task", "Task successfully executed.");
+        }, DateTime.Now.AddSeconds(2), isRecurring: true, interval: TimeSpan.FromSeconds(10));
+
+        taskScheduler.ScheduleTask(task);
+        taskScheduler.ScheduleTask(task1);
+        taskScheduler.ScheduleTask(task2);

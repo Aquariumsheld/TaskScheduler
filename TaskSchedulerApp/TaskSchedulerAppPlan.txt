@@ -1,0 +1,32 @@
+1. Abhängigkeiten zwischen Aufgaben:  
+   Aufgaben können nur ausgeführt werden wenn vorherige Aufgaben erfolgreich abgeschlossen wurden Zum Beispiel könnte ein Backup-Task nur ausgeführt werden nachdem ein Software-Update erfolgreich abgeschlossen wurde  
+
+2. Dynamische Zeitplanung:  
+   Aufgaben können basierend auf Bedingungen geplant werden z B "Führe diese Aufgabe aus wenn der PC im Leerlauf ist" oder "Führe diese Aufgabe nur an den Wochenenden aus"  
+   Berücksichtigung von Feiertagen oder speziellen Kalenderereignissen z B alle 3 Monate oder nach einem bestimmten Datum  
+
+3. Ereignisbasierte Ausführung:  
+   Trigger für Aufgaben basierend auf Systemereignissen wie "Wenn der PC hochfährt" "Wenn ein bestimmtes Programm gestartet wird" oder "Wenn eine Datei geändert wird"  
+
+4. Fehlerbehandlung und Benachrichtigungen:  
+   Bei einem Fehler oder wenn eine Aufgabe nicht ausgeführt werden kann könnte der Scheduler eine Benachrichtigung senden z B per E-Mail SMS oder über eine Desktop-Benachrichtigung  
+   Automatische Wiederholung von fehlgeschlagenen Aufgaben mit zunehmenden Abständen  
+
+5. Aufgaben mit Prioritäten:  
+   Es könnte eine Prioritätenlogik eingebaut werden bei der bestimmte Aufgaben höhere Priorität haben und daher zuerst ausgeführt werden falls Ressourcen knapp sind z B CPU oder RAM  
+
+6. Multiplattform-Unterstützung:  
+   Unterstützung für unterschiedliche Betriebssysteme Windows macOS Linux sodass Aufgaben auch über Plattformen hinweg geplant werden können  
+
+7. Benutzerfreundliche GUI und Logging:  
+   Ein Dashboard auf dem alle geplanten Tasks angezeigt werden mit einer einfachen Möglichkeit Aufgaben hinzuzufügen zu bearbeiten und zu löschen  
+   Umfassendes Logging für alle Task-Aktionen Fehler und Ausführungsprotokolle  
+
+8. Ressourcensteuerung:  
+   Der Task-Scheduler könnte Aufgaben nur zu bestimmten Zeiten oder unter bestimmten Ressourcenbedingungen ausführen um die Systemleistung zu optimieren Zum Beispiel könnte er das System nur während der Nacht belasten wenn wenig Aktivität herrscht  
+
+9. Cloud-Integration:  
+   Möglichkeit zur Ausführung und Verwaltung von Aufgaben in der Cloud sodass Tasks auch von mobilen Geräten oder anderen entfernten Geräten gesteuert werden können  
+
+10. Backup- und Wiederherstellungsfunktionen für Tasks:  
+    Einfache Möglichkeit alle geplanten Aufgaben und deren Einstellungen zu exportieren und im Falle eines Systemausfalls wiederherzustellen
