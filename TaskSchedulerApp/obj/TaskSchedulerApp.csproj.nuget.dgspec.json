@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
+    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\FileDialog.csproj": {
+    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\FileDialog.csproj",
+        "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj",
         "projectName": "FileDialog",
-        "projectPath": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\FileDialog.csproj",
+        "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj",
         "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\obj\\",
+        "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0-windows7.0": {
@@ -69,18 +69,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
+    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
         "projectName": "TaskSchedulerApp",
-        "projectPath": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
         "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\TaskSchedulerApp\\obj\\",
+        "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\FileDialog.csproj": {
-                "projectPath": "C:\\Users\\ben.sowieja\\Downloads\\TaskSchedulerApp\\FileDialog\\FileDialog.csproj"
+              "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj": {
+                "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj"
               }
             }
           }
@@ -118,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0-windows7.0": {
@@ -145,7 +145,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
