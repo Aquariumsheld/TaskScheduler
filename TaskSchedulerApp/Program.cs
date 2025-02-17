@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ShutdownBlocker;
 using TaskSchedulerApp;
 using TaskSchedulerApp.Menus;
+using MiNET.Utils;
 
 public class Program
 {
@@ -20,18 +21,13 @@ public class Program
 
         var mainMenu = new MainMenu(taskScheduler);
         mainMenu.Start();
+        Task.Run(() => PcStatus.StartMonitoring(TimeSpan.FromMinutes(3), TimeSpan.FromMinutes(3), 20.0f,["test"], "test" ));
     }
 
     //public static async Task PreventShutdownStart()
     //{
     //    System.Windows.Forms.Application.Run(new PreventShutdown());
     //}
-
-    public static async Task StartAsyncStatusTasks(TaskScheduler taskScheduler)
-    {
-        //_ = Task.Run(PreventShutdownStart);
-        _ = Task.Run(PcStatus.PcStatusUpdate);
-    }
 }
 
 public static class SystemControl

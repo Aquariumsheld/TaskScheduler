@@ -91,7 +91,7 @@ public class BasicTasks
                 while (true)
                 {
                     // Asynchrone Prüfung, ob der Nutzer mindestens 1 Minute inaktiv ist
-                    bool inactive = await PcStatus.IsUserInactiveAsync(TimeSpan.FromSeconds(timeSpan));
+                    bool inactive = PcStatus.IsUserInactive;
                     if (inactive)
                     {
                         notificationManager.SendNotification("Nutzer inaktiv: PC wird gesperrt.");

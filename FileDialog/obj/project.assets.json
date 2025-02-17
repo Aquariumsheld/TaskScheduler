@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj",
-      "projectName": "FileDialog",
-      "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj",
+      "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
+      "projectName": "WindowsForms",
+      "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
       "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\obj\\",
       "projectStyle": "PackageReference",

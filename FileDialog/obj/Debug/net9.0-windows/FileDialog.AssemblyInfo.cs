@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileDialog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35aa8b00ed0fb802bcd07e227b4a8736cd82f0d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ff601bc8a4a8b7698375df9f0cd41fd358b9f60")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileDialog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileDialog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

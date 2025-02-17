@@ -66,7 +66,7 @@ namespace FileDialog
             #endregion
 
             Task.Run(ChangeValuesAsync);
-            Task.Run(UpdateSaveButton);
+            //Task.Run(UpdateSaveButton);
         }
 
         private void Priority_DropDown(object sender, EventArgs e)
