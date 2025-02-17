@@ -17,4 +17,8 @@
     <EmbeddedResource Remove="Form2.resx" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskClasses\TaskClasses.csproj" />
+  </ItemGroup>
+
 </Project>

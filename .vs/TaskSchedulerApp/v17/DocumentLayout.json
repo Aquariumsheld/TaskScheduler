@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\",
+  "WorkspaceRootPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|c:\\users\\lorenz.kupfer\\source\\repos\\taskscheduler1\\taskschedulerapp\\menus\\createtaskmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|solutionrelative:taskschedulerapp\\menus\\createtaskmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}|FileDialog\\WindowsForms.csproj|c:\\users\\lorenz.kupfer\\source\\ownrepos\\taskscheduler\\createtask\\filedialog\\taskcreator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}|FileDialog\\WindowsForms.csproj|solutionrelative:filedialog\\taskcreator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|c:\\users\\lorenz.kupfer\\source\\repos\\taskscheduler1\\taskschedulerapp\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|solutionrelative:taskschedulerapp\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}|FileDialog\\WindowsForms.csproj|c:\\users\\lorenz.kupfer\\source\\ownrepos\\taskscheduler\\createtask\\filedialog\\taskcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}|FileDialog\\WindowsForms.csproj|solutionrelative:filedialog\\taskcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,28 +21,33 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "RelativeDocumentMoniker": "TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "RelativeToolTip": "TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:16:42.709Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateTaskMenu.cs",
-              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "RelativeDocumentMoniker": "TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "RelativeToolTip": "TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "TaskCreator.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\TaskCreator.Designer.cs",
+              "RelativeDocumentMoniker": "FileDialog\\TaskCreator.Designer.cs",
+              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\TaskCreator.Designer.cs",
+              "RelativeToolTip": "FileDialog\\TaskCreator.Designer.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowKIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:16:38.691Z",
+              "WhenOpened": "2025-02-17T10:40:29.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskCreator.cs",
+              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\TaskCreator.cs",
+              "RelativeDocumentMoniker": "FileDialog\\TaskCreator.cs",
+              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\TaskCreator.cs",
+              "RelativeToolTip": "FileDialog\\TaskCreator.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAowJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T10:30:11.142Z",
               "EditorCaption": ""
             }
           ]

@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Threading;
+using TaskClasses;
 
 public class TaskScheduler
 {
     private readonly TaskQueue _taskQueue = new TaskQueue();
 
-    public void ScheduleTask(PreTask task)
+    /// <summary>
+    /// Fügt in der Warteschlange eine neue Task hinzu.
+    /// </summary>
+    /// <param name="task">Die neue Task</param>
+    public void ScheduleTask(MainTask task)
     {
         _taskQueue.AddTask(task);
     }
 
+    /// <summary>
+    /// Startet den Scheduler.
+    /// </summary>
+    /// <returns>Leerer Task</returns>
     public async Task Start()
     {
         while (true)
