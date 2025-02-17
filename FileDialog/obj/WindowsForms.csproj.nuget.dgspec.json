@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {}
+    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
         "projectName": "WindowsForms",
-        "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
-        "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\obj\\",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
+        "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\Source\\Repos\\TaskScheduler1\\FileDialog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ben.sowieja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lorenz.kupfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
