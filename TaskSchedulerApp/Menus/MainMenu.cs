@@ -9,11 +9,11 @@ namespace TaskSchedulerApp.Menus;
 
 public class MainMenu : Menu
 {
-    private TaskScheduler TaskScheduler { get; set; }
+    private TaskScheduler Scheduler { get; set; }
 
     public MainMenu(TaskScheduler taskScheduler)
     {
-        TaskScheduler = taskScheduler;
+        Scheduler = taskScheduler;
 
         Headline = "Hauptmenü";
         Options =
@@ -33,7 +33,8 @@ public class MainMenu : Menu
         switch (ChoiceIndex)
         {
             case 0:
-                System.Windows.Forms.Application.Run(new TaskCreator());
+                var createTask = new CreateTaskMenu(Scheduler);
+                createTask.Start();
                 break;
             case 1:
                 //todo Tasks anzeigen verknüpfen

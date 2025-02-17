@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
+    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
         "projectName": "WindowsForms",
-        "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
-        "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\obj\\",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
+        "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\Source\\Repos\\TaskScheduler1\\FileDialog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ben.sowieja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lorenz.kupfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,20 +72,20 @@
         }
       }
     },
-    "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
         "projectName": "TaskSchedulerApp",
-        "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
-        "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben.sowieja\\Source\\Repos\\TaskScheduler\\TaskSchedulerApp\\obj\\",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\Source\\Repos\\TaskScheduler1\\TaskSchedulerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ben.sowieja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lorenz.kupfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,15 +94,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {
-                "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj"
+              "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {
+                "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj"
               }
             }
           }
