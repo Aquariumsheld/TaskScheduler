@@ -1,14 +1,22 @@
 ﻿using System.Diagnostics;
 
-public class PreTask
-{
-    public string Name { get; set; }
-    public Action TaskAction { get; set; }
-    public DateTime ScheduledTime { get; set; }
-    public int Priority { get; set; } // 1 = high, 5 = low
-    public bool IsRecurring { get; set; }
-    public TimeSpan? Interval { get; set; } // Für wiederkehrende Aufgaben
 
+namespace TaskClasses;
+
+
+/// <summary>
+/// Vorgefertigte Tasks
+/// </summary>
+public class PreTask : MainTask
+{
+    /// <summary>
+    /// Action der vorgefertigten Task.
+    /// </summary>
+    public Action TaskAction { get; set; }
+
+    /// <summary>
+    /// Konstruktor einer vorgefertigten Task.
+    /// </summary>
     public PreTask(string name, Action taskAction, DateTime scheduledTime, int priority = 3, bool isRecurring = false, TimeSpan? interval = null)
     {
         Name = name;
@@ -19,22 +27,28 @@ public class PreTask
         Interval = interval;
     }
 
-    public void Execute()
+    /// <summary>
+    /// Führt die Action der Task aus.
+    /// </summary>
+    public override void Execute()
     {
         TaskAction.Invoke();
     }
 }
 
-
-public class OwnTask
+/// <summary>
+/// Individuelle / eigene Task.
+/// </summary>
+public class OwnTask : MainTask
 {
-    public string Name { get; set; }
+    /// <summary>
+    /// Dateipfad der eigenen Task.
+    /// </summary>
     public string FilePath { get; set; }
-    public DateTime ScheduledTime { get; set; }
-    public int Priority { get; set; } // 1 = high, 5 = low
-    public bool IsRecurring { get; set; }
-    public TimeSpan? Interval { get; set; } // Für wiederkehrende Aufgaben
 
+    /// <summary>
+    /// Konstruktor der eigenen Task.
+    /// </summary>
     public OwnTask(string name, string filePath, DateTime scheduledTime, int priority = 3, bool isRecurring = false, TimeSpan? interval = null)
     {
         Name = name;
@@ -45,7 +59,10 @@ public class OwnTask
         Interval = interval;
     }
 
-    public void Execute()
+    /// <summary>
+    /// Führt die ausgewählte .exe-Datei der Task aus.
+    /// </summary>
+    public override void Execute()
     {
         Process.Start(FilePath);
     }

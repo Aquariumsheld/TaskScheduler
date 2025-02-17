@@ -18,6 +18,8 @@ public class Program
     [STAThread]
     public static void Main()
     {
+        Console.CursorVisible = false;
+
         var taskScheduler = new TaskScheduler();
 
         var mainMenu = new MainMenu(taskScheduler);
