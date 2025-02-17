@@ -1,5 +1,5 @@
 ﻿
-
+using TaskClasses;
 using System.Diagnostics;
 
 namespace FileDialog;
@@ -61,8 +61,6 @@ public partial class TaskCreator : Form
         {
             priority.Items.Add(item);
         }
-
-        priority.Items.Add("Priorität");
         #endregion
 
         #region Fill Units
@@ -70,8 +68,6 @@ public partial class TaskCreator : Form
         {
             units.Items.Add(item);
         }
-
-        units.Items.Add("Einheit");
         #endregion
 
         _taskDateTime = date.Value;
@@ -101,8 +97,7 @@ public partial class TaskCreator : Form
             case true:
                 if (_taskName != null &&
                     _taskFilePath != null &&
-                    _taskInterval != null &&
-                    _taskPriority != null) saveButton.Enabled = true;
+                    _taskInterval != null) saveButton.Enabled = true;
                 else
                 {
                     saveButton.Enabled = false;
@@ -110,8 +105,7 @@ public partial class TaskCreator : Form
                 break;
             case false:
                 if (_taskName != null &&
-                    _taskFilePath != null &&
-                    _taskPriority != null) saveButton.Enabled = true;
+                    _taskFilePath != null) saveButton.Enabled = true;
                 else
                 {
                     saveButton.Enabled = false;

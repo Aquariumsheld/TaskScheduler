@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj": {}
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj",
         "projectName": "TaskClasses",
-        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj",
         "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\obj\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
