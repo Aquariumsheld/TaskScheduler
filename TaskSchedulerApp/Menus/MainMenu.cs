@@ -4,27 +4,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TranslationsLibrary.TranslationManager;
 
 namespace TaskSchedulerApp.Menus;
 
 public class MainMenu : Menu
 {
-    private TaskScheduler Scheduler { get; set; }
+    private string CurrentLanguage = GetCurrentLanguage();
+    private TaskScheduler TaskScheduler { get; set; }
 
     public MainMenu(TaskScheduler taskScheduler)
     {
-        Scheduler = taskScheduler;
+        TaskScheduler = taskScheduler;
 
-        Headline = "Hauptmenü";
+        Headline = GetTranslation(CurrentLanguage, "headline_mainmenu");
         Options =
         [
-            "[ neuen Task erstellen ]",
-            "[ alle Tasks anzeigen ]",
+            GetTranslation(CurrentLanguage, "newtask_options_mainmenu"),
+            GetTranslation(CurrentLanguage, "showtask_options_mainmenu"),
             " ",
-            "[ Voreinstellungen laden ]",
-            "[ Einstellungen ]",
+            GetTranslation(CurrentLanguage, "loadpreset_options_mainmenu"),
+            GetTranslation(CurrentLanguage, "settings_options_mainmenu"),
             " ",
-            "[ Beenden ]"
+            GetTranslation(CurrentLanguage, "end_options_mainmenu")
         ];
     }
 
@@ -33,8 +35,7 @@ public class MainMenu : Menu
         switch (ChoiceIndex)
         {
             case 0:
-                var createTask = new CreateTaskMenu(Scheduler);
-                createTask.Start();
+                System.Windows.Forms.Application.Run(new TaskCreator());
                 break;
             case 1:
                 //todo Tasks anzeigen verknüpfen

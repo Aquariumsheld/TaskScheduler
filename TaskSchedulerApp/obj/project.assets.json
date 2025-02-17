@@ -1031,21 +1031,21 @@
           }
         }
       },
-      "TaskClasses/1.0.0": {
+      "TranslationsLibary/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/TaskClasses.dll": {}
+          "bin/placeholder/TranslationsLibary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TaskClasses.dll": {}
+          "bin/placeholder/TranslationsLibary.dll": {}
         }
       },
       "WindowsForms/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "TaskClasses": "1.0.0"
+          "TranslationsLibary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WindowsForms.dll": {}
@@ -4466,10 +4466,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "TaskClasses/1.0.0": {
+    "TranslationsLibary/1.0.0": {
       "type": "project",
-      "path": "../TaskClasses/TaskClasses.csproj",
-      "msbuildProject": "../TaskClasses/TaskClasses.csproj"
+      "path": "../TranslationsLibary/TranslationsLibary.csproj",
+      "msbuildProject": "../TranslationsLibary/TranslationsLibary.csproj"
     },
     "WindowsForms/1.0.0": {
       "type": "project",
@@ -4480,7 +4480,7 @@
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
       "MiNET >= 1.0.2304",
-      "TaskClasses >= 1.0.0",
+      "TranslationsLibary >= 1.0.0",
       "WindowsForms >= 1.0.0"
     ]
   },
@@ -4491,11 +4491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+      "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
       "projectName": "TaskSchedulerApp",
-      "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+      "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
       "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskSchedulerApp\\obj\\",
+      "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TaskSchedulerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4516,11 +4516,11 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\FileDialog\\WindowsForms.csproj": {
-              "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\FileDialog\\WindowsForms.csproj"
+            "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {
+              "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\FileDialog\\WindowsForms.csproj"
             },
-            "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj": {
-              "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\AddMenus\\TaskClasses\\TaskClasses.csproj"
+            "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TranslationsLibary\\TranslationsLibary.csproj": {
+              "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TranslationsLibary\\TranslationsLibary.csproj"
             }
           }
         }

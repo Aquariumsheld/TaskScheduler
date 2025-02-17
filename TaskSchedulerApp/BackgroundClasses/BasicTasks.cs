@@ -1,10 +1,12 @@
 ﻿using System.Diagnostics;
 using System.Windows;
 using TaskSchedulerApp.BackgroundClasses;
-using TaskClasses;
+using TranslationsLibrary;
+using static TranslationsLibrary.TranslationManager;
 
 public class BasicTasks
 {
+    private static string CurrentLanguage = GetCurrentLanguage();
     public static void Email(TaskScheduler taskScheduler)
     {
         var notificationManager = new NotificationManager();
@@ -12,11 +14,11 @@ public class BasicTasks
 
         var OpenEmail = new PreTask("OpenMail", () =>
         {
-            notificationManager.SendNotification("OpenMail executed.");
+            notificationManager.SendNotification("openmail_executed_mail_basictasks");
             logger.Log("OpenMail", "Task successfully executed.");
-            string email = "empfaenger@example.com";
-            string subject = Uri.EscapeDataString("Betreff der E-Mail");
-            string body = Uri.EscapeDataString("Hallo,\n\nDas ist eine vorgefertigte Nachricht.");
+            string email = GetTranslation(CurrentLanguage, "reciever_mail_basictasks");
+            string subject = Uri.EscapeDataString(GetTranslation(CurrentLanguage, "subject_mail_basictasks").ToString());
+            string body = Uri.EscapeDataString(GetTranslation(CurrentLanguage, "text_mail_basictasks").ToString());
 
             string mailto = $"mailto:{email}?subject={subject}&body={body}";
 
@@ -26,7 +28,7 @@ public class BasicTasks
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Fehler beim Öffnen des E-Mail-Clients: " + ex.Message);
+                MessageBox.Show(GetTranslation(CurrentLanguage, "openmail_error_executed_mail_basictasks") + ex.Message);
             }
 
         }, DateTime.Now.AddSeconds(5), priority: 1);
@@ -41,7 +43,7 @@ public class BasicTasks
 
         var Calculator = new PreTask("Calculator", () =>
         {
-            notificationManager.SendNotification("Calculator executed.");
+            notificationManager.SendNotification("opencalc_executed_calculator_basictasks");
             logger.Log("Calculator", "Task successfully executed.");
             try
             {
@@ -49,7 +51,7 @@ public class BasicTasks
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Fehler beim Öffnen des Taschenrechners: " + ex.Message);
+                MessageBox.Show(GetTranslation(CurrentLanguage, "opencalc_error_executed_calculator_basictasks") + ex.Message);
             }
 
         }, DateTime.Now.AddSeconds(5), priority: 1);
@@ -64,7 +66,7 @@ public class BasicTasks
 
         var Browser = new PreTask("Browser", () =>
         {
-            notificationManager.SendNotification("Browser executed.");
+            notificationManager.SendNotification("openbrowser_executed_browser_basictasks");
             logger.Log("Browser", "Task successfully executed.");
             ProcessStartInfo psi = new ProcessStartInfo
             {
@@ -85,7 +87,7 @@ public class BasicTasks
 
         var LockInactive = new PreTask("LockInactive", () =>
         {
-            notificationManager.SendNotification("LockInactive executed.");
+            notificationManager.SendNotification("lockinactive_basictasks");
             logger.Log("LockInactive", "Task successfully executed.");
             Task.Run(async () =>
             {
@@ -95,8 +97,8 @@ public class BasicTasks
                     bool inactive = PcStatus.IsUserInactive;
                     if (inactive)
                     {
-                        notificationManager.SendNotification("Nutzer inaktiv: PC wird gesperrt.");
-                        logger.Log("LockPC", "Nutzer inaktiv. PC wird sofort gesperrt.");
+                        notificationManager.SendNotification("lockinactive_basictasks");
+                        logger.Log("LockPC", "User inactive. Pc is locked");
                         SystemControl.LockWorkStation();
                         break; // Nach dem Sperren beenden wir die Überwachungsschleife.
                     }

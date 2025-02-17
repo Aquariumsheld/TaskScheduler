@@ -1,73 +1,70 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
+using static TranslationsLibrary.TranslationManager;
 
 namespace BackupTool
 {
     public partial class Form1 : Form
     {
+        private static string CurrentLanguage = GetCurrentLanguage();
         // Timer für geplante Backups (Windows.Forms.Timer für den UI-Thread)
         private System.Windows.Forms.Timer plannedTimer;
-
         // Timer für Debounce bei Echtzeit-Überwachung
         private System.Windows.Forms.Timer debounceTimer;
-
         // FileSystemWatcher für Echtzeit-Backups
         private FileSystemWatcher fileWatcher;
-
         // Flag, um parallele Backup-Ausführungen zu verhindern
         private bool isBackingUp = false;
 
         public Form1()
         {
             InitializeComponent();
-
             // Setze Standardauswahlen
             comboBoxBackupType.SelectedIndex = 0;
             comboBoxAutomation.SelectedIndex = 0;
             buttonStopAutomation.Enabled = false;
-
-            plannedTimer = new System.Windows.Forms.Timer();
-            debounceTimer = new System.Windows.Forms.Timer();
         }
 
         private void buttonBackupStart_Click(object sender, EventArgs e)
         {
             string sourceFolder = textBoxSourceFolder.Text;
             string destinationFolder = textBoxDestinationFolder.Text;
-            string? backupType = comboBoxBackupType.SelectedItem?.ToString();
-            string? automationMethod = comboBoxAutomation.SelectedItem?.ToString();
+            string backupType = comboBoxBackupType.SelectedItem.ToString();
+            string automationMethod = comboBoxAutomation.SelectedItem.ToString();
 
             if (string.IsNullOrWhiteSpace(sourceFolder) || string.IsNullOrWhiteSpace(destinationFolder))
             {
-                MessageBox.Show("Bitte Quell- und Zielordner angeben.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(GetTranslation(CurrentLanguage, "specify_source_destination_folder_button_backup_start_click_backupmanager"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            if (automationMethod == "Manuell")
+            if (automationMethod == GetTranslation(CurrentLanguage, "manual_automationmethod_backupmanager"))
             {
                 // Bei manueller Ausführung: Einfaches Backup
                 PerformBackupSafe(sourceFolder, destinationFolder, backupType);
             }
-            else if (automationMethod == "Geplant")
+            else if (automationMethod == GetTranslation(CurrentLanguage, "scheduled_automationmethod_backupmanager"))
             {
                 // Timer starten, falls noch nicht aktiv
-                if (!plannedTimer.Enabled)
+                if (plannedTimer == null)
                 {
+                    plannedTimer = new System.Windows.Forms.Timer();
                     plannedTimer.Interval = 60000; // Intervall: 60 Sekunden
                     plannedTimer.Tick += (s, args) => PerformBackupSafe(sourceFolder, destinationFolder, backupType);
                     plannedTimer.Start();
-                    MessageBox.Show("Geplante Backups gestartet (Intervall: 60 Sekunden).", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(GetTranslation(CurrentLanguage, "scheduled_started_automationmethod_backupmanager"), "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     buttonBackupStart.Enabled = false;
                     buttonStopAutomation.Enabled = true;
                 }
             }
-            else if (automationMethod == "Echtzeit")
+            else if (automationMethod == GetTranslation(CurrentLanguage, "realtime_automationmethod_backupmanager"))
             {
                 if (fileWatcher == null)
                 {
-                    if (!plannedTimer.Enabled)
+                    if (plannedTimer == null)
                     {
+                        plannedTimer = new System.Windows.Forms.Timer();
                         plannedTimer.Interval = 100; // Intervall: 60 Sekunden
                         plannedTimer.Tick += (s, args) => PerformBackupSafe(sourceFolder, destinationFolder, backupType);
                         plannedTimer.Start();
@@ -77,7 +74,7 @@ namespace BackupTool
                     //fileWatcher.Deleted += OnFileChanged;
                     //fileWatcher.Renamed += OnFileChanged;
                     //fileWatcher.EnableRaisingEvents = true;
-                    MessageBox.Show("Echtzeit-Backup aktiviert. Änderungen werden überwacht.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(GetTranslation(CurrentLanguage, "realtime_started_automationmethod_backupmanager"), "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     buttonBackupStart.Enabled = false;
                     buttonStopAutomation.Enabled = true;
                 }
@@ -91,15 +88,16 @@ namespace BackupTool
         /// </summary>
         private void OnFileChanged(object sender, FileSystemEventArgs e)
         {
-            if (!debounceTimer.Enabled)
+            if (debounceTimer == null)
             {
+                debounceTimer = new System.Windows.Forms.Timer();
                 debounceTimer.Interval = 5000; // 5 Sekunden warten, bis sich die Ereignisse beruhigen
                 debounceTimer.Tick += (s, args) =>
                 {
                     debounceTimer.Stop();
                     string sourceFolder = textBoxSourceFolder.Text;
                     string destinationFolder = textBoxDestinationFolder.Text;
-                    string? backupType = comboBoxBackupType.SelectedItem?.ToString();
+                    string backupType = comboBoxBackupType.SelectedItem.ToString();
                     PerformBackupSafe(sourceFolder, destinationFolder, backupType);
                 };
             }
@@ -111,27 +109,24 @@ namespace BackupTool
         /// <summary>
         /// Führt das Backup aus, sofern gerade keines läuft.
         /// </summary>
-        private void PerformBackupSafe(string sourceFolder, string destinationFolder, string? backupType)
+        private void PerformBackupSafe(string sourceFolder, string destinationFolder, string backupType)
         {
-            if(backupType != null)
-            {
-                if (isBackingUp)
-                    return; // Verhindere parallele Backups
+            if (isBackingUp)
+                return; // Verhindere parallele Backups
 
-                isBackingUp = true;
-                try
-                {
-                    BackupManager.PerformBackup(sourceFolder, destinationFolder, backupType);
-                    // Optional: Hier könnte man ein Log oder eine Statusanzeige aktualisieren.
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Backup fehlgeschlagen: {ex.Message}", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                finally
-                {
-                    isBackingUp = false;
-                }
+            isBackingUp = true;
+            try
+            {
+                BackupManager.PerformBackup(sourceFolder, destinationFolder, backupType);
+                // Optional: Hier könnte man ein Log oder eine Statusanzeige aktualisieren.
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(GetTranslation(CurrentLanguage, "backupfailed_backupmanager") + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                isBackingUp = false;
             }
         }
 
@@ -144,7 +139,7 @@ namespace BackupTool
             {
                 plannedTimer.Stop();
                 plannedTimer.Dispose();
-                plannedTimer.Enabled = false;
+                plannedTimer = null;
             }
             if (fileWatcher != null)
             {
@@ -152,7 +147,7 @@ namespace BackupTool
                 fileWatcher.Dispose();
                 fileWatcher = null;
             }
-            MessageBox.Show("Automatisierung gestoppt.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(GetTranslation(CurrentLanguage, "automation_stopped_backupmanager"), "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             buttonBackupStart.Enabled = true;
             buttonStopAutomation.Enabled = false;
         }
@@ -164,7 +159,7 @@ namespace BackupTool
         {
             using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
             {
-                folderDialog.Description = "Quellordner auswählen";
+                folderDialog.Description = GetTranslation(CurrentLanguage, "choose_source_folder_backupmanager");
                 // Optional: Startverzeichnis vorschlagen, falls bereits ein Pfad eingetragen ist
                 if (!string.IsNullOrEmpty(textBoxSourceFolder.Text))
                     folderDialog.SelectedPath = textBoxSourceFolder.Text;
@@ -183,7 +178,7 @@ namespace BackupTool
         {
             using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
             {
-                folderDialog.Description = "Zielordner auswählen";
+                folderDialog.Description = GetTranslation(CurrentLanguage, "choose_destination_folder_backupmanager");
                 // Optional: Startverzeichnis vorschlagen
                 if (!string.IsNullOrEmpty(textBoxDestinationFolder.Text))
                     folderDialog.SelectedPath = textBoxDestinationFolder.Text;
@@ -201,9 +196,9 @@ namespace BackupTool
     /// </summary>
     public static class BackupManager
     {
+        private static string CurrentLanguage = GetCurrentLanguage();
         // Dateiname für den Marker, der den Zeitpunkt des letzten Vollbackups speichert (für differenzielle Backups)
         private static string markerFileName = "fullBackupMarker.txt";
-
         public static void PerformBackup(string sourceFolder, string destinationFolder, string backupType)
         {
             if (!Directory.Exists(sourceFolder))
@@ -212,23 +207,19 @@ namespace BackupTool
             if (!Directory.Exists(destinationFolder))
                 Directory.CreateDirectory(destinationFolder);
 
-            switch (backupType)
-            {
-                case "Vollständig":
-                    CopyAll(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
-                    break;
-                case "Inkrementell":
-                    CopyIncremental(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
-                    break;
-                case "Differenziell":
-                    CopyDifferential(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
-                    break;
-                case "Syncronisieren":
-                    Synchronize(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
-                    break;
-                default:
-                    throw new Exception("Unbekannter Backup-Typ.");
-            }
+            GetTranslation(CurrentLanguage, "complete_backuptype_backupmanager");
+
+
+            if (backupType == GetTranslation(CurrentLanguage, "complete_backuptype_backupmanager"))
+                CopyAll(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
+            else if (backupType == GetTranslation(CurrentLanguage, "incremental_backuptype_backupmanager"))
+                CopyIncremental(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
+            else if (backupType == GetTranslation(CurrentLanguage, "differential_backuptype_backupmanager"))
+                CopyDifferential(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
+            else if (backupType == GetTranslation(CurrentLanguage, "synchronize_backuptype_backupmanager"))
+                Synchronize(new DirectoryInfo(sourceFolder), new DirectoryInfo(destinationFolder));
+            else
+                throw new Exception(GetTranslation(CurrentLanguage, "unknown_backuptype_backupmanager"));
         }
 
         /// <summary>

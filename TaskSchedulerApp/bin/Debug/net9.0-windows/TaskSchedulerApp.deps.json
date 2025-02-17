@@ -9,7 +9,7 @@
       "TaskSchedulerApp/1.0.0": {
         "dependencies": {
           "MiNET": "1.0.2304",
-          "TaskClasses": "1.0.0",
+          "TranslationsLibary": "1.0.0",
           "WindowsForms": "1.0.0"
         },
         "runtime": {
@@ -553,9 +553,9 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "TaskClasses/1.0.0": {
+      "TranslationsLibary/1.0.0": {
         "runtime": {
-          "TaskClasses.dll": {
+          "TranslationsLibary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -563,7 +563,7 @@
       },
       "WindowsForms/1.0.0": {
         "dependencies": {
-          "TaskClasses": "1.0.0"
+          "TranslationsLibary": "1.0.0"
         },
         "runtime": {
           "WindowsForms.dll": {
@@ -1035,7 +1035,7 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "TaskClasses/1.0.0": {
+    "TranslationsLibary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

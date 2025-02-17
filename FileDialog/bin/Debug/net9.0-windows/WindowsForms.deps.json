@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v9.0": {
       "WindowsForms/1.0.0": {
         "dependencies": {
-          "TaskClasses": "1.0.0"
+          "TranslationsLibary": "1.0.0"
         },
         "runtime": {
           "WindowsForms.dll": {}
         }
       },
-      "TaskClasses/1.0.0": {
+      "TranslationsLibary/1.0.0": {
         "runtime": {
-          "TaskClasses.dll": {
+          "TranslationsLibary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -30,7 +30,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "TaskClasses/1.0.0": {
+    "TranslationsLibary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

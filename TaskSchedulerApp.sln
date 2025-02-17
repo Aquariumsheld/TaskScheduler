@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskSchedulerApp", "TaskSch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "FileDialog\WindowsForms.csproj", "{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskClasses", "TaskClasses\TaskClasses.csproj", "{35828C79-C406-403E-8CF0-15B2951D2053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationsLibary", "TranslationsLibary\TranslationsLibary.csproj", "{692440EF-4033-42DC-AD10-7099B69CDE9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,15 +26,12 @@ Global
 		{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35828C79-C406-403E-8CF0-15B2951D2053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35828C79-C406-403E-8CF0-15B2951D2053}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35828C79-C406-403E-8CF0-15B2951D2053}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35828C79-C406-403E-8CF0-15B2951D2053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692440EF-4033-42DC-AD10-7099B69CDE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692440EF-4033-42DC-AD10-7099B69CDE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692440EF-4033-42DC-AD10-7099B69CDE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692440EF-4033-42DC-AD10-7099B69CDE9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {30A9FCA7-0E11-420F-9CA5-E6517189C943}
 	EndGlobalSection
 EndGlobal
