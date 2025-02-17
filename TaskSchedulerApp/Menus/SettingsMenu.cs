@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TranslationsLibrary.TranslationManager;
 
 namespace TaskSchedulerApp.Menus;
 
 public class SettingsMenu : Menu
 {
+    private string CurrentLanguage = GetCurrentLanguage();
     public SettingsMenu()
     {
-        Headline = "Einstellungen";
+        Headline = GetTranslation(CurrentLanguage, "headline_settingsmenu");
         Options =
         [
-            "[ Voreinstellungen für neue Tasks]",
-            "[ Sprachen ]",
+            GetTranslation(CurrentLanguage, "taskpreset_options_settingsmenu"),
+            GetTranslation(CurrentLanguage, "language_options_settingsmenu"),
             " ",
-            "[ zurück ]"
+            GetTranslation(CurrentLanguage, "back_options_settingsmenu")
         ];
     }
 
@@ -28,7 +30,7 @@ public class SettingsMenu : Menu
                 //todo Config ändern verknüpfen
                 break;
             case 1:
-                //todo Sprache ändern
+                ChangeLanguage();
                 break;
             case 3:
                 KeepGoing = false;

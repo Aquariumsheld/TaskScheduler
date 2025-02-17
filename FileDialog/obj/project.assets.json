@@ -1,30 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {}
+    "net9.0-windows7.0": {
+      "TranslationsLibary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TranslationsLibary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranslationsLibary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TranslationsLibary/1.0.0": {
+      "type": "project",
+      "path": "../TranslationsLibary/TranslationsLibary.csproj",
+      "msbuildProject": "../TranslationsLibary/TranslationsLibary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": []
+    "net9.0-windows7.0": [
+      "TranslationsLibary >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\ben.sowieja\\.nuget\\packages\\": {},
+    "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
+      "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
       "projectName": "WindowsForms",
-      "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
-      "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\obj\\",
+      "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\FileDialog\\WindowsForms.csproj",
+      "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\FileDialog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ben.sowieja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lorenz.kupfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,13 +52,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TranslationsLibary\\TranslationsLibary.csproj": {
+              "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\Ben\\TaskScheduler\\TranslationsLibary\\TranslationsLibary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

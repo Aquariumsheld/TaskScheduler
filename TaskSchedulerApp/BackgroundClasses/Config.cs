@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TaskSchedulerApp.PassiveClasses
 {
-    internal class Config
+    public class Config
     {
+        public static void safeConfig()
+        {
+
+        }
     }
 }

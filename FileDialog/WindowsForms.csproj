@@ -17,4 +17,8 @@
     <EmbeddedResource Remove="Form2.resx" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TranslationsLibary\TranslationsLibary.csproj" />
+  </ItemGroup>
+
 </Project>

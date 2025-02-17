@@ -149,8 +149,7 @@ namespace TaskSchedulerApp.BackgroundClasses
                 }
             }, token);
 
-            // Hinweis: Da die Tasks in Dauerschleifen laufen, beendet sich diese Methode nicht von selbst.
-            // Sie kann ggf. als Starter-Methode betrachtet werden.
+            // Hinweis: Da die Tasks in Dauerschleifen laufen beendet sich diese Methode nicht von selbst.
             await Task.CompletedTask;
         }
 

@@ -3,6 +3,9 @@ C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-wind
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-windows\WindowsForms.runtimeconfig.json
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-windows\WindowsForms.dll
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-windows\WindowsForms.pdb
+C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-windows\TranslationsLibary.dll
+C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\bin\Debug\net9.0-windows\TranslationsLibary.pdb
+C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.csproj.AssemblyReference.cache
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\BackupTool.Form1.resources
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\ShutdownBlocker.PreventShutdown.resources
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\FileDialog.TaskCreator.resources
@@ -12,6 +15,7 @@ C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-wind
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.AssemblyInfo.cs
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.csproj.CoreCompileInputs.cache
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.sourcelink.json
+C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsF.AEBE025B.Up2Date
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.dll
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\refint\WindowsForms.dll
 C:\Users\ben.sowieja\source\repos\TaskScheduler\FileDialog\obj\Debug\net9.0-windows\WindowsForms.pdb

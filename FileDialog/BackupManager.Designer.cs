@@ -1,4 +1,6 @@
-﻿namespace BackupTool
+﻿using static TranslationsLibrary.TranslationManager;
+
+namespace BackupTool
 {
     partial class Form1
     {
@@ -76,7 +78,7 @@
             this.labelSource.Name = "labelSource";
             this.labelSource.Size = new System.Drawing.Size(67, 13);
             this.labelSource.TabIndex = 1;
-            this.labelSource.Text = "Quellordner:";
+            this.labelSource.Text = GetTranslation(CurrentLanguage, "source_folder_designer_backupmanager");
             // 
             // textBoxSourceFolder
             // 
@@ -91,7 +93,7 @@
             this.buttonBrowseSource.Name = "buttonBrowseSource";
             this.buttonBrowseSource.Size = new System.Drawing.Size(100, 23);
             this.buttonBrowseSource.TabIndex = 3;
-            this.buttonBrowseSource.Text = "Durchsuchen...";
+            this.buttonBrowseSource.Text = GetTranslation(CurrentLanguage, "searching_designer_backupmanager");
             this.buttonBrowseSource.UseVisualStyleBackColor = true;
             this.buttonBrowseSource.Click += new System.EventHandler(this.buttonBrowseSource_Click);
             // 
@@ -102,7 +104,7 @@
             this.labelDestination.Name = "labelDestination";
             this.labelDestination.Size = new System.Drawing.Size(63, 13);
             this.labelDestination.TabIndex = 4;
-            this.labelDestination.Text = "Zielordner:";
+            this.labelDestination.Text = GetTranslation(CurrentLanguage, "destination_folder_designer_backupmanager");
             // 
             // textBoxDestinationFolder
             // 
@@ -117,7 +119,7 @@
             this.buttonBrowseDestination.Name = "buttonBrowseDestination";
             this.buttonBrowseDestination.Size = new System.Drawing.Size(100, 23);
             this.buttonBrowseDestination.TabIndex = 6;
-            this.buttonBrowseDestination.Text = "Durchsuchen...";
+            this.buttonBrowseDestination.Text = GetTranslation(CurrentLanguage, "searching_designer_designer_backupmanager");
             this.buttonBrowseDestination.UseVisualStyleBackColor = true;
             this.buttonBrowseDestination.Click += new System.EventHandler(this.buttonBrowseDestination_Click);
             // 
@@ -128,17 +130,17 @@
             this.labelBackupType.Name = "labelBackupType";
             this.labelBackupType.Size = new System.Drawing.Size(64, 13);
             this.labelBackupType.TabIndex = 7;
-            this.labelBackupType.Text = "Backup-Typ:";
+            this.labelBackupType.Text = GetTranslation(CurrentLanguage, "backuptype_designer_backupmanager");
             // 
             // comboBoxBackupType
             // 
             this.comboBoxBackupType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxBackupType.FormattingEnabled = true;
             this.comboBoxBackupType.Items.AddRange(new object[] {
-            "Vollständig",
-            "Inkrementell",
-            "Differenziell",
-            "Syncronisieren"});
+            GetTranslation(CurrentLanguage, "complete_backuptype_backupmanager"),
+            GetTranslation(CurrentLanguage, "incremental_backuptype_backupmanager"),
+            GetTranslation(CurrentLanguage, "differential_backuptype_backupmanager"),
+            GetTranslation(CurrentLanguage, "synchronize_backuptype_backupmanager")});
             this.comboBoxBackupType.Location = new System.Drawing.Point(30, 210);
             this.comboBoxBackupType.Name = "comboBoxBackupType";
             this.comboBoxBackupType.Size = new System.Drawing.Size(200, 21);
@@ -151,16 +153,16 @@
             this.labelAutomation.Name = "labelAutomation";
             this.labelAutomation.Size = new System.Drawing.Size(80, 13);
             this.labelAutomation.TabIndex = 9;
-            this.labelAutomation.Text = "Automatisierung:";
+            this.labelAutomation.Text = GetTranslation(CurrentLanguage, "automation_designer_backupmanager");
             // 
             // comboBoxAutomation
             // 
             this.comboBoxAutomation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAutomation.FormattingEnabled = true;
             this.comboBoxAutomation.Items.AddRange(new object[] {
-            "Manuell",
-            "Geplant",
-            "Echtzeit"});
+            GetTranslation(CurrentLanguage, "manual_automationmethod_backupmanager"),
+            GetTranslation(CurrentLanguage, "scheduled_automationmethod_backupmanager"),
+            GetTranslation(CurrentLanguage, "realtime_automationmethod_backupmanager")});
             this.comboBoxAutomation.Location = new System.Drawing.Point(30, 270);
             this.comboBoxAutomation.Name = "comboBoxAutomation";
             this.comboBoxAutomation.Size = new System.Drawing.Size(200, 21);
@@ -172,7 +174,7 @@
             this.buttonBackupStart.Name = "buttonBackupStart";
             this.buttonBackupStart.Size = new System.Drawing.Size(120, 30);
             this.buttonBackupStart.TabIndex = 11;
-            this.buttonBackupStart.Text = "Backup starten";
+            this.buttonBackupStart.Text = GetTranslation(CurrentLanguage, "startbackup_designer_backupmanager");
             this.buttonBackupStart.UseVisualStyleBackColor = true;
             this.buttonBackupStart.Click += new System.EventHandler(this.buttonBackupStart_Click);
             // 
@@ -182,7 +184,7 @@
             this.buttonStopAutomation.Name = "buttonStopAutomation";
             this.buttonStopAutomation.Size = new System.Drawing.Size(120, 30);
             this.buttonStopAutomation.TabIndex = 12;
-            this.buttonStopAutomation.Text = "Automatisierung stoppen";
+            this.buttonStopAutomation.Text = GetTranslation(CurrentLanguage, "stopautomation_designer_backupmanager");
             this.buttonStopAutomation.UseVisualStyleBackColor = true;
             this.buttonStopAutomation.Click += new System.EventHandler(this.buttonStopAutomation_Click);
             // 

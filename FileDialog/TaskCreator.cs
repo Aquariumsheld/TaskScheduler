@@ -9,18 +9,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static TranslationsLibrary.TranslationManager;
 namespace FileDialog
 {
     public partial class TaskCreator : Form
     {
+        private static string CurrentLanguage = GetCurrentLanguage();
         private string[] _prioritys =
         {
-            "sehr wichtig",
-            "wichtig",
-            "normal",
-            "unwichtig",
-            "sehr unwichtig"
+            GetTranslation(CurrentLanguage, "veryimportant_prioritys_taskcreator"),
+            GetTranslation(CurrentLanguage, "important_prioritys_taskcreator"),
+            GetTranslation(CurrentLanguage, "normalimportant_prioritys_taskcreator"),
+            GetTranslation(CurrentLanguage, "lessimportant_prioritys_taskcreator"),
+            GetTranslation(CurrentLanguage, "leastimportant_prioritys_taskcreator")
         };
 
         private UnitFactors[] _units =
@@ -71,12 +72,12 @@ namespace FileDialog
 
         private void Priority_DropDown(object sender, EventArgs e)
         {
-            priority.Items.Remove("Priorität");
+            priority.Items.Remove(GetTranslation(CurrentLanguage, "priority_taskcreator"));
         }
 
         private void Units_DropDown(object sender, EventArgs e)
         {
-            units.Items.Remove("Einheit");
+            units.Items.Remove(GetTranslation(CurrentLanguage, "unit_taskcreator"));
         }
 
         private void IsRecurring_MouseClick(object sender, MouseEventArgs e)
@@ -170,21 +171,19 @@ namespace FileDialog
 
         private int? ConvertPriority(string? priority)
         {
-            switch (priority)
-            {
-                case "sehr wichtig":
-                    return 1;
-                case "wichtig":
-                    return 2;
-                case "normal":
-                    return 3;
-                case "unwichtig":
-                    return 4;
-                case "sehr unwichtig":
-                    return 5;
-                default:
-                    return null;
-            }
+            if (priority == GetTranslation(CurrentLanguage, "veryimportant_prioritys_taskcreator"))
+                return 1;
+            else if (priority == GetTranslation(CurrentLanguage, "important_prioritys_taskcreator"))
+                return 2;
+            else if (priority == GetTranslation(CurrentLanguage, "normalimportant_prioritys_taskcreator"))
+                return 3;
+            else if (priority == GetTranslation(CurrentLanguage, "lessimportant_prioritys_taskcreator"))
+                return 4;
+            else if (priority == GetTranslation(CurrentLanguage, "leastimportant_prioritys_taskcreator"))
+                return 5;
+            else
+                return null;
+
         }
     }
 }

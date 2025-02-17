@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FileDialog\WindowsForms.csproj" />
+    <ProjectReference Include="..\TranslationsLibary\TranslationsLibary.csproj" />
   </ItemGroup>
 
 </Project>
