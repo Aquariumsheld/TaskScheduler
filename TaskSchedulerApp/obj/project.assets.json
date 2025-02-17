@@ -1031,14 +1031,14 @@
           }
         }
       },
-      "FileDialog/1.0.0": {
+      "WindowsForms/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/FileDialog.dll": {}
+          "bin/placeholder/WindowsForms.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FileDialog.dll": {}
+          "bin/placeholder/WindowsForms.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -4453,16 +4453,16 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "FileDialog/1.0.0": {
+    "WindowsForms/1.0.0": {
       "type": "project",
-      "path": "../FileDialog/FileDialog.csproj",
-      "msbuildProject": "../FileDialog/FileDialog.csproj"
+      "path": "../FileDialog/WindowsForms.csproj",
+      "msbuildProject": "../FileDialog/WindowsForms.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
-      "FileDialog >= 1.0.0",
-      "MiNET >= 1.0.2304"
+      "MiNET >= 1.0.2304",
+      "WindowsForms >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4476,7 +4476,7 @@
       "projectName": "TaskSchedulerApp",
       "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
       "packagesPath": "C:\\Users\\ben.sowieja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\TaskSchedulerApp\\obj\\",
+      "outputPath": "C:\\Users\\ben.sowieja\\Source\\Repos\\TaskScheduler\\TaskSchedulerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4498,8 +4498,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj": {
-              "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\FileDialog.csproj"
+            "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj": {
+              "projectPath": "C:\\Users\\ben.sowieja\\source\\repos\\TaskScheduler\\FileDialog\\WindowsForms.csproj"
             }
           }
         }

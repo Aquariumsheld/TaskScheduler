@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskSchedulerApp", "TaskSchedulerApp\TaskSchedulerApp.csproj", "{90A6A459-B916-494C-8CA0-978DEB27B69B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836} = {67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDialog", "FileDialog\FileDialog.csproj", "{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "FileDialog\WindowsForms.csproj", "{67602EEF-CDEB-4A05-AFFE-C46E2C1FD836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
