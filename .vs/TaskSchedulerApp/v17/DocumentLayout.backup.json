@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\",
+  "WorkspaceRootPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|c:\\users\\lorenz.kupfer\\source\\repos\\taskscheduler1\\taskschedulerapp\\menus\\createtaskmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|c:\\users\\lorenz.kupfer\\source\\ownrepos\\taskscheduler\\createtask\\taskschedulerapp\\menus\\createtaskmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|solutionrelative:taskschedulerapp\\menus\\createtaskmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|c:\\users\\lorenz.kupfer\\source\\repos\\taskscheduler1\\taskschedulerapp\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A6A459-B916-494C-8CA0-978DEB27B69B}|TaskSchedulerApp\\TaskSchedulerApp.csproj|solutionrelative:taskschedulerapp\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,76 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "RelativeDocumentMoniker": "TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "RelativeToolTip": "TaskSchedulerApp\\Menus\\MainMenu.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:16:42.709Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CreateTaskMenu.cs",
-              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
+              "DocumentMoniker": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
               "RelativeDocumentMoniker": "TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
+              "ToolTip": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
               "RelativeToolTip": "TaskSchedulerApp\\Menus\\CreateTaskMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:16:38.691Z",
+              "WhenOpened": "2025-02-17T10:01:29.74Z",
               "EditorCaption": ""
             }
           ]

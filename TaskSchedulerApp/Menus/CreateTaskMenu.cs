@@ -1,8 +1,11 @@
-﻿using System;
+﻿using FileDialog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Forms;
 
 namespace TaskSchedulerApp.Menus;
 
@@ -30,7 +33,7 @@ class CreateTaskMenu : Menu
         switch (ChoiceIndex)
         {
             case 0:
-                //todo Funktion verknüpfen
+                var creator = new TaskCreator(Scheduler);
                 break;
             case 1:
                 //todo Funktion verknüpfen

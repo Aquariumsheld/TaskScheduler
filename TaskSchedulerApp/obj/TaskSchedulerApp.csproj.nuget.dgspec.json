@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\WindowsForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\WindowsForms.csproj",
         "projectName": "WindowsForms",
-        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\WindowsForms.csproj",
         "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lorenz.kupfer\\Source\\Repos\\TaskScheduler1\\FileDialog\\obj\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,7 +31,11 @@
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj": {
+                "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -72,14 +76,79 @@
         }
       }
     },
-    "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
-        "projectName": "TaskSchedulerApp",
-        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj",
+        "projectName": "TaskClasses",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj",
         "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lorenz.kupfer\\Source\\Repos\\TaskScheduler1\\TaskSchedulerApp\\obj\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lorenz.kupfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\TaskSchedulerApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "projectName": "TaskSchedulerApp",
+        "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\TaskSchedulerApp.csproj",
+        "packagesPath": "C:\\Users\\lorenz.kupfer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskSchedulerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +169,11 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj": {
-                "projectPath": "C:\\Users\\lorenz.kupfer\\source\\repos\\TaskScheduler1\\FileDialog\\WindowsForms.csproj"
+              "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\WindowsForms.csproj": {
+                "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\FileDialog\\WindowsForms.csproj"
+              },
+              "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj": {
+                "projectPath": "C:\\Users\\lorenz.kupfer\\source\\OwnRepos\\TaskScheduler\\CreateTask\\TaskClasses\\TaskClasses.csproj"
               }
             }
           }
