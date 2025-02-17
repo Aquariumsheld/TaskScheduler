@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using static TranslationsLibrary.TranslationManager;
 
 namespace ShutdownBlocker
 {
@@ -20,7 +19,6 @@ namespace ShutdownBlocker
     {
         private const int WM_QUERYENDSESSION = 0x11;
         private const int WM_ENDSESSION = 0x16;
-        private static string CurrentLanguage = GetCurrentLanguage();
 
         [DllImport("user32.dll", SetLastError = true)]
         private static extern bool ShutdownBlockReasonCreate(IntPtr hWnd, string pwszReason);
@@ -45,7 +43,7 @@ namespace ShutdownBlocker
 
         private void HiddenForm_Shown(object sender, EventArgs e)
         {
-            ShutdownBlockReasonCreate(this.Handle, GetTranslation(CurrentLanguage, "shutdown_prevented_preventshutdown"));
+            ShutdownBlockReasonCreate(this.Handle, "Herunterfahren wird durch diese Anwendung verhindert.");
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
