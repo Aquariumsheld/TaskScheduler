@@ -34,9 +34,11 @@ class CreateTaskMenu : Menu
         {
             case 0:
                 var creator = new TaskCreator(Scheduler);
+                System.Windows.Forms.Application.Run(creator);
                 break;
             case 1:
-                //todo Funktion verknüpfen
+                var autoCreator = new AutoTaskOptions(Scheduler);
+                autoCreator.Start();
                 break;
             case 2:
                 //todo Funktion verknüpfen

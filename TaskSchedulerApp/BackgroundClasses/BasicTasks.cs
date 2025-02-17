@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Windows;
 using TaskSchedulerApp.BackgroundClasses;
+using TaskClasses;
 
 public class BasicTasks
 {
